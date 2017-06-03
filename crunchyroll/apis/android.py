@@ -409,7 +409,7 @@ class AndroidApi(ApiInterface):
         """
         pass
 
-    @make_android_api_method(METHOD_GET)
+    @make_android_api_method(METHOD_GET,version=2)
     def list_ads(self, response):
         """
         @param int media_id
